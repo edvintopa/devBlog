@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Josefin+Sans:700&display=swap');
+
+* {
+    font-family: 'Bebas Neue', cursive;
+    margin: 0;
+    padding: 0;
+    background-color: #1c1c1c;
+}
+
+header {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 10px 10%;
+    font-size: 2em;
+    background-color: #e6a21c;
+}
+
+.links {
+    list-style: none;
+    background-color: #e6a21c;
+}
+
+.links li {
+    display: inline-block;
+    padding: 0 20px;
+    background-color: #e6a21c;
+    
+}
+
+.links li a {
+    transition: all 0.3s ease 0s;
+    color: #ffffff;
+    text-decoration: none;
+    background-color: #e6a21c;
+    
+}
+
+.links li a:hover {
+    color: #46a652;
+}
+
+.highlights {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 50px 10%;
+    background-color: white;
+}
+
+.card {
+    
+}
